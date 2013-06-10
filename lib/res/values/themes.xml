@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PickersDialogFragment">
+        <item name="dialogBackground">@drawable/dialog_full_holo_dark</item>
+        <item name="titleColor">@color/dialog_text_color_holo_dark</item>
+        <item name="textColor">@color/dialog_text_color_holo_dark</item>
+        <item name="buttonBackground">@drawable/button_background_dark</item>
+        <item name="titleDividerColor">@color/default_keyboard_indicator_color_dark</item>
+        <item name="dividerColor">@color/default_divider_color_dark</item>
+        <item name="shadowLeft">@drawable/left_shadow</item>
+        <item name="shadowRight">@drawable/right_shadow</item>
+        <item name="android:divider">@drawable/list_divider_holo_dark</item>
+        <item name="primaryTextSize">@dimen/default_primary_text_size</item>
+        <item name="primaryTextColor">@color/default_primary_text_color_dark</item>
+        <item name="primaryTextColorBold">@color/default_primary_text_bold_color_dark</item>
+        <item name="secondaryTextSize">@dimen/default_secondary_text_size</item>
+        <item name="secondaryTextColor">@color/default_secondary_text_color_dark</item>
+        <item name="secondaryTextColorBold">@color/default_secondary_text_bold_color_dark</item>
+        <item name="lineHeight">@dimen/line_height</item>
+    </style>
+
+    <style name="PickersDialogFragment.Light">
+        <item name="dialogBackground">@drawable/dialog_full_holo_light</item>
+        <item name="titleColor">@color/dialog_text_color_holo_light</item>
+        <item name="textColor">@color/dialog_text_color_holo_light</item>
+        <item name="buttonBackground">@drawable/button_background_light</item>
+        <item name="titleDividerColor">@color/default_keyboard_indicator_color_dark</item>
+        <item name="dividerColor">@color/default_divider_color_light</item>
+        <item name="shadowLeft">@drawable/left_shadow_light</item>
+        <item name="shadowRight">@drawable/right_shadow_light</item>
+        <item name="android:divider">@drawable/list_divider_holo_light</item>
+        <item name="primaryTextSize">@dimen/default_primary_text_size</item>
+        <item name="primaryTextColor">@color/default_primary_text_color_light</item>
+        <item name="primaryTextColorBold">@color/default_primary_text_bold_color_light</item>
+        <item name="secondaryTextSize">@dimen/default_secondary_text_size</item>
+        <item name="secondaryTextColor">@color/default_secondary_text_color_light</item>
+        <item name="secondaryTextColorBold">@color/default_secondary_text_bold_color_light</item>
+        <item name="lineHeight">@dimen/line_height</item>
+    </style>
+
+</resources>

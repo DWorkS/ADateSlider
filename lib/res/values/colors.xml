@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="backgroundColor">@android:color/white</drawable>
+
+    <color name="default_text_color_holo_dark">#ffffffff</color>
+    <color name="default_text_color_holo_dark_disabled">#ff4c4c4c</color>
+    <color name="default_divider_color_dark">#28ffffff</color>
+    <color name="default_button_background_dark">#00000000</color>
+    <color name="default_button_background_pressed_dark">#46c5c1ff</color>
+    <color name="default_keyboard_indicator_color_dark">#ff33b5e5</color>
+    <color name="default_text_color_holo_light">#ff000000</color>
+    <color name="default_text_color_holo_light_disabled">#ffb2b2b2</color>
+    <color name="default_divider_color_light">#28000000</color>
+    <color name="default_button_background_light">#00000000</color>
+    <color name="default_button_background_pressed_light">#ff00ddff</color>
+    <color name="default_keyboard_indicator_color_light">#ff00ddff</color>
+    
+    <color name="default_shadow_dim_color_dark">#00282828</color>
+    <color name="default_shadow_middle_color_dark">#dd282828</color>
+    <color name="default_shadow_dark_color_dark">#ff282828</color>
+    
+    <color name="default_shadow_dim_color_light">#00ffffff</color>
+    <color name="default_shadow_middle_color_light">#ddffffff</color>
+    <color name="default_shadow_dark_color_light">#ffffffff</color>
+    
+    <color name="default_primary_text_color_light">#ff666666</color>
+    <color name="default_primary_text_bold_color_light">#ff333333</color>
+    <color name="default_secondary_text_color_light">#ff666666</color>
+    <color name="default_secondary_text_bold_color_light">#ff333333</color>
+    
+    <color name="default_primary_text_color_dark">#ffdbdbdb</color>
+    <color name="default_primary_text_bold_color_dark">#ffffffff</color>
+    <color name="default_secondary_text_color_dark">#ffdbdbdb</color>
+    <color name="default_secondary_text_bold_color_dark">#ffffffff</color>
+</resources>

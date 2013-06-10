@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Click one of the buttons to select a date/time." />
+
+    <Button
+        android:id="@+id/defaultDateSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select DefaultDate" >
+    </Button>
+
+    <Button
+        android:id="@+id/defaultDateLimitSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select DefaultDate with Limit" >
+    </Button>
+
+    <Button
+        android:id="@+id/alternativeDateSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select AlternativeDate" >
+    </Button>
+
+    <Button
+        android:id="@+id/customDateSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select CustomDate" >
+    </Button>
+
+    <Button
+        android:id="@+id/monthYearDateSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Month/Year" >
+    </Button>
+
+    <Button
+        android:id="@+id/timeSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time" >
+    </Button>
+
+    <Button
+        android:id="@+id/timeLimitSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time with Limit" >
+    </Button>
+
+    <Button
+        android:id="@+id/dateTimeSelectButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select DateTime" >
+    </Button>
+
+    <TextView
+        android:id="@+id/selectedDateLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="25dp" >
+    </TextView>
+
+</LinearLayout>

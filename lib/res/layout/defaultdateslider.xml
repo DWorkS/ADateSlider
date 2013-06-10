@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dev.dworks.widgets.dateslider.SliderContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dateSliderContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="middle" >
+
+    <dev.dworks.widgets.dateslider.ScrollLayout
+        style="@style/Scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:childWidth="90dp"
+        app:labelerClass="dev.dworks.widgets.dateslider.model.MonthYearLabeler"
+        app:labelerFormat="%tb %tY" />
+
+    <dev.dworks.widgets.dateslider.ScrollLayout
+        style="@style/Scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:childWidth="45dp"
+        app:labelerClass="dev.dworks.widgets.dateslider.model.DayDateLabeler"
+        app:labelerFormat="%td %ta" />
+
+</dev.dworks.widgets.dateslider.SliderContainer>

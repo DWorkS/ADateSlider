@@ -1,0 +1,47 @@
+/*
+ * Copyright (C) 2011 Daniel Berndt - Codeus Ltd  -  DateSlider
+ * Copyright (C) 2013 Hari Krishna Dulipudi
+ * 
+ * This class contains all the scrolling logic of the slidable elements
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package dev.dworks.widgets.dateslider.model;
+
+import android.content.Context;
+import android.os.Bundle;
+import dev.dworks.widgets.dateslider.ui.DayTimeLayoutView;
+import dev.dworks.widgets.dateslider.ui.TimeView;
+
+/**
+ * A Labeler that displays days using DayTimeLayoutViews.
+ */
+public class DayDateLabeler extends DayLabeler {
+    /**
+     * The format string that specifies how to display the day. Since this class
+     * uses a DayTimeLayoutView, the format string should consist of two strings
+     * separated by a space.
+     *
+     * @param formatString
+     */
+    public DayDateLabeler(String formatString) {
+        super(formatString);
+    }
+
+    @Override
+    public TimeView createView(Context context, boolean isCenterView, Bundle bundle) {
+        return new DayTimeLayoutView(context, isCenterView, bundle);
+        		//30, 8, 0.8f);
+    }
+}

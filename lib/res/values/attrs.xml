@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DateSlider">
+        <attr name="labelerClass" format="string" />
+        <attr name="labelerFormat" format="string" />
+        <attr name="childWidth" format="dimension" />
+        <attr name="childHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LinearLayout">
+        <attr name="android:divider" />
+        <attr name="android:dividerPadding" />
+        <attr name="android:showDividers" />
+        <attr name="android:dividerPadding" />
+        <attr name="android:showDividers" />
+    </declare-styleable>
+    <declare-styleable name="PickersDialogFragment">
+        <attr name="textColor" format="reference" />
+        <attr name="titleColor" format="reference" />
+        <attr name="buttonBackground" format="reference" />
+        <attr name="titleDividerColor" format="color" />
+        <attr name="dividerColor" format="color" />
+        <attr name="dialogBackground" format="reference" />
+        <attr name="shadowLeft" format="reference" />
+        <attr name="shadowRight" format="reference" />
+        <attr name="primaryTextSize" format="dimension" />
+        <attr name="primaryTextColor" format="color" />
+        <attr name="primaryTextColorBold" format="color" />
+        <attr name="secondaryTextSize" format="dimension" />
+        <attr name="secondaryTextColor" format="color" />
+        <attr name="secondaryTextColorBold" format="color" />
+        <attr name="lineHeight" format="float" />
+    </declare-styleable>
+
+</resources>

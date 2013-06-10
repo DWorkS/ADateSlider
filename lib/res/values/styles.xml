@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Scroller">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--         <item name="android:background">@drawable/backgroundColor</item> -->
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <!--
+         <style name="DialogTheme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:background">#000000</item>
+    </style>
+    -->
+<!-- 
+    <style name="DialogTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#ff90ff90</item>
+    </style>
+ -->
+    <style name="dialog_button">
+        <item name="android:textSize">@dimen/dialog_button_font_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+</resources>
