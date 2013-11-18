@@ -1,8 +1,13 @@
-HoloDateSlider
+ADateSlider
 ==========
+![ActionBarToggle](https://github.com/DWorkS/ADateSlider/raw/master/header.png)
 
-HoloDateSlider is Revamped version of DateSlider by Daniel Berndt
+ADateSlider is Revamped version of DateSlider by Daniel Berndt
 This now supports theming
+
+## Sample App
+
+[![Get it on Google Play](http://www.android.com/images/brand/get_it_on_play_logo_small.png)](http://play.google.com/store/apps/details?id=dev.dworks.libs.adateslider.demo)
 
 
 Developed By
